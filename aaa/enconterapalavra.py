@@ -10,10 +10,10 @@ cont=0
 
 for i in range(len(lista)):
   if lista[i] == procura:
-    posi = i
+    posicao = i
     cont +=1
 
 if cont>0:
-  print(procura,posi )
+  print(procura,posicao )
 else:
   print("falta",procura)
