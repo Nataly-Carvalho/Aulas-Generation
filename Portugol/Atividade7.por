@@ -2,11 +2,11 @@
  * Turma: 55
  * Dia:30/06/2022
  * 
- Q 6. Um sistema de equações lineares
+ Q 7. Um sistema de equações lineares
   */
 programa
 {
-	inclua biblioteca Matematica -->mat
+	inclua biblioteca Matematica -->mat
 	
 	funcao inicio()
 	{
@@ -49,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 536; 
+ * @POSICAO-CURSOR = 74; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

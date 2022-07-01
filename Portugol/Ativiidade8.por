@@ -10,18 +10,19 @@ consumidor.
   */
 programa
 {
-	inclua biblioteca Matematica
+	inclua biblioteca Matematica--> mat
 	
 	funcao inicio()
 	{
-	real CustoCarro,CustoComsumidor,CustoDistribuidor
+	real CustoCarro,CustoConsumidor,CustoDistribuidor
 
 	escreva("\nDigite o custo de fabrica: ")
 	leia(CustoCarro)
 	CustoCarro=CustoCarro*0.28
      CustoDistribuidor = CustoCarro*0.45
+     CustoConsumidor = CustoCarro+ CustoDistribuidor
      
-     escreva("O valor do carro é: ", CustoDistribuidor)
+     escreva("O valor do carro é: ", mat.arredondar(CustoConsumidor,2))
      
 	
 
@@ -33,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 473; 
+ * @POSICAO-CURSOR = 779; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
