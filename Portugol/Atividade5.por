@@ -11,8 +11,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro  N1, N2, N3
-		real media
+		real  N1, N2, N3,media
+		
 
 		escreva("Digite a primeira nota: ")
 		leia(N1)
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 74; 
+ * @POSICAO-CURSOR = 292; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
