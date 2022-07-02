@@ -2,40 +2,36 @@
  * Turma: 55
  * Dia:01/07/2022
  * 
- Q 2- Faça um programa que pegue um número do teclado e calcule a soma de todos os
-números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
-1+2+3+4+5+6+7=28.*/
+ Q2- Obtenha um número digitado pelo usuário e repita a operação de multiplicar ele por
+três (imprimindo o novo valor) até que ele seja maior do que 100. Ex.: se o usuário
+digita 5, deveremos observar na tela a seguinte sequência: 5 15 45 135.
+  */
 
 programa
 {
 	
 	funcao inicio()
 	{
-	inteiro numero,contador=0,resultado=0
+		inteiro numero
+		
+		escreva("Digite um numero numero: ")
+		leia (numero)
 
-	escreva("\nDigite um numero: ")
-	leia(numero)
-	faca 
-	{
-	
-	 resultado = resultado+contador
-	
-	contador ++
-	}
-	enquanto(contador<=numero)
-	
-	escreva("A soma é: ",resultado)
-	
+		enquanto (numero<100)
+		{
+		numero=numero*3
+
+		escreva("\nO numero multiplicado por 3 é:  ", numero)
+		}
 		
 	}
-	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 251; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

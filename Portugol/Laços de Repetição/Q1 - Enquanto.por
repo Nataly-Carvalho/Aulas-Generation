@@ -12,17 +12,17 @@ negativo.
 
 programa
 {
-	inclua biblioteca Matematica-->mat
+	inclua biblioteca Matematica-->mat
 	
 	funcao inicio()
 	{
 	
-	real media
-     inteiro somatotal=0, numero=0, contador=0
+	
+     inteiro somatotal=0, numero=0, contador=0,media
 
 	enquanto(numero>=0)
 	{
-	escreva("Digite um numero: ")
+	escreva("\nDigite um numero: ")
 	leia(numero)
 	
      se (numero>=0)
@@ -31,7 +31,7 @@ programa
 	
 	}
 	media=somatotal/contador
-	escreva("A soma dos numero é, ",somatotal," e a media é, ",mat.arredondar(media, 2)," o total de valores lidos foi, ",contador)
+	escreva("\nA soma dos numero é, ",somatotal," e a media é, ",mat.arredondar(media, 2)," o total de valores lidos foi, ",contador)
 	
 	
 	}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 807; 
+ * @POSICAO-CURSOR = 486; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

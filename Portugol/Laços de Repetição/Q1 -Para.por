@@ -15,8 +15,8 @@ programa
 	
 	funcao inicio()
 	{
-	real MediaSalario,MediaFilhos,MaiorSalario=0.0,SomaSalario=0.0,percentual,salario,SomaFilhos=0.0, contPercentual=0.0
-	inteiro filhos, x=0,contador=0 
+	real MediaSalario,MaiorSalario=0.0,SomaSalario=0.0,percentual,salario,SomaFilhos=0.0, contPercentual=0.0
+	inteiro filhos, x=0,contador=0,MediaFilhos 
 	
 	para(x=1;x<=20;x++)
 	{
@@ -51,7 +51,7 @@ programa
 	MediaFilhos =SomaFilhos/20
 	
 	escreva("\nA media de salario é: ",MediaSalario)
-	escreva("\nA media de filhos é: ",MediaFilhos, " %")
+	escreva("\nA media de filhos é: ",MediaFilhos)
 	escreva("\nO maior salario é: R$",MaiorSalario)
 	escreva("\nPercentual de pessoas que recebem ate R$100.00 é: ",percentual," %\n")
 	}
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 946; 
+ * @POSICAO-CURSOR = 1213; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -2,40 +2,38 @@
  * Turma: 55
  * Dia:01/07/2022
  * 
- Q 2- Faça um programa que pegue um número do teclado e calcule a soma de todos os
-números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
-1+2+3+4+5+6+7=28.*/
+ Q 2- Desenvolver um sistema que efetue a soma de todos os números ímpares que são
+múltiplos de três e que se encontram no conjunto dos números de 1 até 500.*/
 
 programa
 {
 	
+	
 	funcao inicio()
 	{
-	inteiro numero,contador=0,resultado=0
-
-	escreva("\nDigite um numero: ")
-	leia(numero)
-	faca 
-	{
-	
-	 resultado = resultado+contador
-	
-	contador ++
-	}
-	enquanto(contador<=numero)
-	
-	escreva("A soma é: ",resultado)
-	
+		inteiro  i, numero=0
 		
-	}
+
+		para (i=1; i<=500; i++)
+			
+		{ 
+			se (i % 3 == 0 e i %2==1)
+			
+			  numero=numero+i
+			  
+		}
+		escreva("\nA soma é: ",numero)
+		
+		
 	
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 251; 
+ * @POSICAO-CURSOR = 437; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
