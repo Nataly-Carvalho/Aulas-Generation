@@ -9,16 +9,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro TotalDias,ano,mes,dia
+		inteiro TotalDias,Ano,mes,dia
 
 		escreva("\n entre com o total de dias vividos por você: ")
 		leia(TotalDias)
 
-		ano = TotalDias / 365
+		Ano = TotalDias / 365
 		mes = (TotalDias % 365)/30
 		dia = (TotalDias % 365)%30
 
-		escreva("\nVocê viveu: ",ano, "ano(s),",mes, "mes(es) e ",dia,"dia(s) de vida")
+		escreva("\nVocê viveu: ",Ano, "ano(s),",mes, "mes(es) e ",dia,"dia(s) de vida")
 		
 
 		
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 182; 
+ * @POSICAO-CURSOR = 443; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

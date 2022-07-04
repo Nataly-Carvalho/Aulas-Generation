@@ -10,7 +10,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro a,b,c,d,E,f, x,y, divisor
+		inteiro a,b,c,d,E,f, x,Y, divisor
 
 		escreva("Digite o Valor de A: ")
 		leia(a)
@@ -32,9 +32,9 @@ programa
 	     
           divisor= ((a*E) - (b*d))
 		x= ((c*E) - (b*f))/divisor
-		y= ((a*f) - (c*b))/divisor 
+		Y= ((a*f) - (c*b))/divisor 
 
-		escreva("O valor de x é: ",x," e o de y é: ",y)
+		escreva("O valor de x é: ",x," e o de y é: ",Y)
 
 
 
@@ -49,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 74; 
+ * @POSICAO-CURSOR = 645; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

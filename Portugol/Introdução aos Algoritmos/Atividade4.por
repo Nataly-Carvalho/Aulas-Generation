@@ -11,7 +11,7 @@ programa
 	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
-	inteiro A,B,C
+	inteiro A,B,c
 	real D,R,S
 	
 	escreva("Digite um numero para a variavel A: ")
@@ -19,8 +19,8 @@ programa
 	escreva("Digite um numero para a variavel B: ")
 	leia(B)
 	escreva("Digite um numero para a variavel C: ")
-	leia(C)
-	D = mat.potencia((B+C), 2.0)
+	leia(c)
+	D = mat.potencia((B+c), 2.0)
      R = mat.potencia((A+B), 2.0)
      S =(R+D)/2
      
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 196; 
+ * @POSICAO-CURSOR = 496; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

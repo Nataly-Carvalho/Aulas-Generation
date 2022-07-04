@@ -7,10 +7,10 @@ quaisquer no plano, P(x1, y1) e P(x2, y2), escreva a distância entre eles. A f�
   */
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
-	real P1,P2, x1,x2,y1,y2,D
+	real P1,P2, x1,x2,y1,y2,d
 	
       escreva("Escreva o ponto x1: ")
       leia(x1)
@@ -26,9 +26,9 @@ programa
 
       P1 = mat.potencia((x1-y1), 2.0)
       P2 = mat.potencia((x2-y2), 2.0)
-      D =mat.raiz((P1+P2), 2.0)
+      d =mat.raiz((P1+P2), 2.0)
 
-      escreva("A distancia entre eles é: ", D)
+      escreva("A distancia entre eles é: ", d)
 
       
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 678; 
+ * @POSICAO-CURSOR = 721; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

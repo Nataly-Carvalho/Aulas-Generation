@@ -7,19 +7,19 @@ expressa em segundos e mostre-o expresso em horas, minutos e segundos.*/
 
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-	inteiro horas,minutos,segundos, tempoEvento
+	inteiro horas,minutos,Segundos, tempoEvento
 
 	escreva("\nQuantos segundos durou o evento?:")
 	leia(tempoEvento)
-	segundos= tempoEvento
+	Segundos= tempoEvento
 	horas = tempoEvento/3600
 	minutos =tempoEvento/ 60
 
-	escreva("\nO evento durou: ",horas," h ",minutos," min ",segundos, " seg")
+	escreva("\nO evento durou: ",horas," h ",minutos," min ",Segundos, " seg")
 	
 
 
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 556; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

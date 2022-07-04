@@ -11,16 +11,16 @@ programa
 	funcao inicio()
 	
 	{
-		inteiro anos, meses, dias, totaldias
+		inteiro anos, meses, Dias, totaldias
 
 		escreva("\nQuantos anos você tem? : ")
 		leia(anos)
 		escreva("\nQuantos meses você tem: ")
 		leia(meses)
 		escreva("\nQuantos dias você tem: ")
-          leia(dias)
+          leia(Dias)
 
-          totaldias= anos *365+meses *30+ dias
+          totaldias= anos *365+meses *30+ Dias
           
           escreva("\nEu vivi: ",totaldias," Dia(s)")
 	}
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 479; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

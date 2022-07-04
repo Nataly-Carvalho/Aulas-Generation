@@ -11,7 +11,7 @@ programa
 	
 	funcao inicio()
 	{
-		real  N1, N2, N3,media
+		real  N1, N2, N3,Media
 		
 
 		escreva("Digite a primeira nota: ")
@@ -21,9 +21,9 @@ programa
 		escreva("Digite a teceira nota: ")
 		leia(N3)
 		
-		media = ((N1*2) + (N2*3) + (N3*5))/10
+		Media = ((N1*2) + (N2*3) + (N3*5))/10
 
-		escreva("A Media é: ",media)
+		escreva("A Media é: ",Media)
 
 		
 
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 292; 
+ * @POSICAO-CURSOR = 466; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

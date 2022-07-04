@@ -14,13 +14,13 @@ programa
 	
 	funcao inicio()
 	{
-	real CustoCarro,CustoConsumidor,CustoDistribuidor
+	real CustoCarro,CustoConsumidor,custoDistribuidor
 
 	escreva("\nDigite o custo de fabrica: ")
 	leia(CustoCarro)
-	CustoCarro=CustoCarro*0.28
-     CustoDistribuidor = CustoCarro*0.45
-     CustoConsumidor = CustoCarro+ CustoDistribuidor
+	CustoCarro=CustoCarro*1.28
+     custoDistribuidor = CustoCarro*1.45
+     CustoConsumidor = CustoCarro+ custoDistribuidor
      
      escreva("O valor do carro é: ", mat.arredondar(CustoConsumidor,2))
      
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 779; 
+ * @POSICAO-CURSOR = 647; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
