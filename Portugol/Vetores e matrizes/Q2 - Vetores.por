@@ -16,7 +16,7 @@ programa
 
 		para(i=0;i<10;i++)
 		{
-			escreva("Jogue o dado: ")
+			escreva("Jogue o Dado: ")
 			leia(dado[i])
 
 			enquanto (dado[i]>1 e dado[i]>6)
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 759; 
+ * @POSICAO-CURSOR = 522; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {dado, 15, 10, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
