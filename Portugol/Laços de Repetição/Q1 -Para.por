@@ -15,10 +15,10 @@ programa
 	
 	funcao inicio()
 	{
-	real MediaSalario,MaiorSalario=0.0,SomaSalario=0.0,percentual,salario,SomaFilhos=0.0, contPercentual=0.0
-	inteiro filhos, x=0,contador=0,MediaFilhos 
+	real MediaSalario,MaiorSalario=0.0,SomaSalario=0.0,salario,SomaFilhos=0.0, contPercentual=0.0,percentual
+	inteiro filhos,i,MediaFilhos 
 	
-	para(x=1;x<=20;x++)
+	para(i=1;i<=20;i++)
 	{
 		escreva("\nDigite seu salario: ")
 		leia(salario)
@@ -26,14 +26,9 @@ programa
 	     escreva("\nDigite quantos filhos você tem: ")
 	     leia(filhos)
 
-	     se(contador==0)
-	     {
-	     	MaiorSalario= salario
-	     	contador++
-	     }
-	     	senao se (salario>MaiorSalario)
+	     se (salario>MaiorSalario)
 	         {
-	     	MaiorSalario= salario
+	     	MaiorSalario = salario
 	     	
 	     	}
 	     	
@@ -61,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1213; 
+ * @POSICAO-CURSOR = 559; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

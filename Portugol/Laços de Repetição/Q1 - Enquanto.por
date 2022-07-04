@@ -12,7 +12,7 @@ negativo.
 
 programa
 {
-	inclua biblioteca Matematica-->mat
+	
 	
 	funcao inicio()
 	{
@@ -31,7 +31,7 @@ programa
 	
 	}
 	media=somatotal/contador
-	escreva("\nA soma dos numero é, ",somatotal," e a media é, ",mat.arredondar(media, 2)," o total de valores lidos foi, ",contador)
+	escreva("\nA soma dos numero é, ",somatotal," e a media é, ",media," o total de valores lidos foi, ",contador)
 	
 	
 	}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 486; 
+ * @POSICAO-CURSOR = 741; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
