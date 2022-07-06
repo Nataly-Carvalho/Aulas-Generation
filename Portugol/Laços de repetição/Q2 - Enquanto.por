@@ -12,16 +12,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero
+		inteiro Numero
 		
 		escreva("Digite um numero numero: ")
-		leia (numero)
+		leia (Numero)
 
-		enquanto (numero<100)
+		enquanto (Numero<100)
 		{
-		numero=numero*3
+		Numero=Numero*3
 
-		escreva("\nO numero multiplicado por 3 é:  ", numero)
+		escreva("\nO numero multiplicado por 3 é:  ", Numero)
 		}
 		
 	}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 525; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

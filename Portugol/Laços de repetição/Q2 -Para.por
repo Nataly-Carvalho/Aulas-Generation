@@ -11,7 +11,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro  i, numero=0
+		inteiro  i, Numero=0
 		
 
 		para (i=1; i<=500; i++)
@@ -19,10 +19,10 @@ programa
 		{ 
 			se (i % 3 == 0 e i %2==1)
 			
-			  numero=numero+i
+			  Numero=Numero+i
 			  
 		}
-		escreva("\nA soma é: ",numero)
+		escreva("\nA soma é: ",Numero)
 		
 		
 	
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 437; 
+ * @POSICAO-CURSOR = 418; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -18,7 +18,7 @@ programa
 	{
 	
 	
-     inteiro somatotal=0, numero=0, contador=0,media
+     inteiro Somatotal=0, numero=0, contador=0,media
 
 	enquanto(numero>=0)
 	{
@@ -26,12 +26,12 @@ programa
 	leia(numero)
 	
      se (numero>=0)
-	somatotal = somatotal+numero
+	Somatotal = Somatotal+numero
 	contador++
 	
 	}
-	media=somatotal/contador
-	escreva("\nA soma dos numero é, ",somatotal," e a media é, ",media," o total de valores lidos foi, ",contador)
+	media=Somatotal/contador
+	escreva("\nA soma dos numero é, ",Somatotal," e a media é, ",media," o total de valores lidos foi, ",contador)
 	
 	
 	}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 641; 
+ * @POSICAO-CURSOR = 467; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

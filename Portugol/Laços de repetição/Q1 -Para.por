@@ -16,9 +16,9 @@ programa
 	funcao inicio()
 	{
 	real MediaSalario,MaiorSalario=0.0,SomaSalario=0.0,salario,SomaFilhos=0.0, contPercentual=0.0,percentual
-	inteiro filhos,i,MediaFilhos 
+	inteiro filhos,x,MediaFilhos 
 	
-	para(i=1;i<=20;i++)
+	para(x=1;x<=20;x++)
 	{
 		escreva("\nDigite seu salario: ")
 		leia(salario)
@@ -56,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 559; 
+ * @POSICAO-CURSOR = 556; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -10,25 +10,25 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero=233
+		inteiro Numero=233
 
 		faca
 		{
-			escreva("\nnumero: ",numero)
-			se (numero >=300 e numero<=400)
+			escreva("\nnumero: ",Numero)
+			se (Numero >=300 e Numero<=400)
 			{
-			numero = numero+3
+			Numero = Numero+3
 			
 			}
-			senao se (numero<300 ou numero >400 )
+			senao se (Numero<300 ou Numero >400 )
 			{
-				numero = numero + 5
+				Numero = Numero + 5
 				
 			}
 			
 			
 		}
-		enquanto(numero<=456)
+		enquanto(Numero<=456)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 433; 
+ * @POSICAO-CURSOR = 502; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

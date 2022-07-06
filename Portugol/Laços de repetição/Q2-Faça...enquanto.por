@@ -11,10 +11,10 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro numero,contador=0,resultado=0
+	inteiro Numero,contador=0,resultado=0
 
 	escreva("\nDigite um numero: ")
-	leia(numero)
+	leia(Numero)
 	faca 
 	{
 	
@@ -22,7 +22,7 @@ programa
 	
 	contador ++
 	}
-	enquanto(contador<=numero)
+	enquanto(contador<=Numero)
 	
 	escreva("A soma é: ",resultado)
 	
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 251; 
+ * @POSICAO-CURSOR = 456; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
